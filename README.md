@@ -1,3 +1,2 @@
 # odin-recipes
-Create a basic recipe website using HTML
-Practice using HTML
+Project to create a basic recipe website using HTML
