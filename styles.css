@@ -1,0 +1,34 @@
+
+
+body {
+    line-height: 1.5;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #f7f7f0;
+    text-align: left;
+    color: #000000;
+}
+
+ul .recipe {
+    list-style-type: none;
+    font-weight: 500;
+}
+
+/* unvisited link */
+.recipe-link:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* visited link */
+.recipe-link:visited {
+    color: purple;
+}
+
+.recipe-link:hover {
+    color: red;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
