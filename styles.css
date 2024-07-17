@@ -1,16 +1,29 @@
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
 
 body {
     line-height: 1.5;
     font-family: Verdana, Tahoma, sans-serif;
     background-color: #f7f7f0;
-    text-align: left;
     color: #000000;
+    margin: 0px;
+}
+
+.recipe-menu {
+    width: 830px;
+    background: whitesmoke;
+    margin: 0 auto;
+    padding: 32px;
+    border: 2px solid darkslategray;
 }
 
 ul .recipe {
     list-style-type: none;
     font-weight: 500;
+    text-align: left;
 }
 
 /* unvisited link */
@@ -29,6 +42,20 @@ ul .recipe {
 }
 
 img {
+    display: block;
     height: auto;
-    width: 300px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.recipe-card {
+    width: 830px;
+    background: whitesmoke;
+    margin: 0 auto;
+    padding: 32px;
+    border: 2px solid darkslategray;
+}
+
+h1 {
+    text-align: center;
 }
