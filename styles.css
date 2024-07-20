@@ -7,7 +7,7 @@
 body {
     line-height: 1.5;
     font-family: Verdana, Tahoma, sans-serif;
-    background-color: #f7f7f0;
+    background-color: whitesmoke;
     color: #000000;
     margin: 0px;
 }
@@ -17,7 +17,7 @@ body {
     background: whitesmoke;
     margin: 0 auto;
     padding: 32px;
-    border: 2px solid darkslategray;
+    border: 2px solid #2f4f4f;
 }
 
 ul .recipe {
@@ -41,21 +41,50 @@ ul .recipe {
     color: red;
 }
 
-img {
-    display: block;
-    height: auto;
-    width: 50%;
-    margin: 0 auto;
-}
-
 .recipe-card {
     width: 830px;
     background: whitesmoke;
     margin: 0 auto;
-    padding: 32px;
-    border: 2px solid darkslategray;
+    padding: 30px;
+    border: 2px solid #2f4f4f;
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+    color: #2f4f4f;
+}
+
+.recipe-card-top {
+    display: inline-block;
+    max-width: 800px;
+    vertical-align: top;
+}
+
+.recipe-card-top img {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.recipe-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.recipe-card-top h1,
+.recipe-card-top h2,
+.recipe-card-top p {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.recipe-prep {
+    display: inline-block;
+    margin-right: 20px;
+
 }
